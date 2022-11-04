@@ -10,14 +10,59 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png" />
 		<link rel="stylesheet" href="../news-homepage/style.css" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Inter:400,700,800"
-			rel="stylesheet" />
 		<title>news-homepage</title>
 	</head>
 	<body>
-		<header></header>
-		<main></main>
-		<footer></footer>
+		<header class="header">
+			<a href="#" class="logo">W.</a>
+			<input class="side-menu" type="checkbox" id="side-menu" />
+			<label class="hamb" for="side-menu"
+				><span class="hamb-line"></span
+			></label>
+			<nav class="nav">
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">New</a></li>
+					<li><a href="#">Popular</a></li>
+					<li><a href="#">Trending</a></li>
+					<li><a href="#">Categories</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="top-section">
+				<article class="home">
+					<img src="" alt="" class="home__image" />
+					<p class="home__article-name"></p>
+					<div class="home__description">
+						<p class="home__description-text"></p>
+						<button class="home__button"></button>
+					</div>
+				</article>
+				<article class="new">
+					<h5 class="new__article-heading">
+						<p class="new__article-name"></p>
+						<p class="new__article-description"></p>
+					</h5>
+				</article>
+			</div>
+			<article class="popular">
+				<div class="popular__first-article">
+					<h5 class="popular__number"></h5>
+					<p class="popular__article-name"></p>
+					<p class="popular__article-description"></p>
+				</div>
+				<div class="popular__second-article">
+					<h5 class="popular__number"></h5>
+					<p class="popular__article-name"></p>
+					<p class="popular__article-description"></p>
+				</div>
+				<div class="popular__third-article">
+					<h5 class="popular__number"></h5>
+					<p class="popular__article-name"></p>
+					<p class="popular__article-description"></p>
+				</div>
+			</article>
+		</main>
 	</body>
 </html>
