@@ -32,6 +32,10 @@
 ```
 Here I decided to add a google font using css. I also found out about display=swap feature. The browser will initially show a fallback font, then once the Google Font has downloaded it will swap the fonts.
 
+```html
+<hr class="new__hr" />
+```
+Here I used hr for the first time to make a horizontal line. 
 ### Continued development
 
 In my future projects I really want to have more pracice with:
@@ -42,8 +46,8 @@ In my future projects I really want to have more pracice with:
 
 -   [W3Schools](https://www.w3schools.com/) - This one really helps me out every time I have difficulty with any css property.
 -   [CS50](https://www.youtube.com/watch?v=NcoBAfJ6l2Q&ab_channel=CS50) - This YouTube channel has countless useful videos. I tend to watch it when I have troubles with Git.
--   [SmashingMagazine](https://www.smashingmagazine.com/2010/07/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/) - This one is an amazing article which helped me finally understand how To Use CSS3 Media Queries To Create a Mobile Version of Your Website.
 -   [cssgenerator.org](https://cssgenerator.org/) - Here are some useful css tools.
+-   [LogRocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/) - This article helped me create a responsive mobile menu with CSS without JavaScript.
 ## Author
 
 -   LinkedIn - [Daniil Kalugin](https://www.linkedin.com/in/daniil-kalugin)
