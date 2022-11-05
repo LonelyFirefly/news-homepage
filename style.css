@@ -8,7 +8,9 @@
 	--clr-dark: hsl(240, 100%, 5%);
 
 	--fs-normal: 15px;
-	--fs-greater: 30px;
+	--fs-large: 20px;
+	--fs-large-plus: 30px;
+	--fs-larger: 55px;
 	--fw-normal: 400;
 	--fw-bold: 700;
 	--fw-bolder: 800;
@@ -66,7 +68,9 @@ main {
 	grid-template-areas:
 		"image image"
 		"article-name description";
+	column-gap: 50px;
 	row-gap: 30px;
+	column-gap: ;
 	justify-items: stretch;
 }
 
@@ -77,28 +81,47 @@ main {
 
 .home__article-name {
 	grid-area: article-name;
+	font-size: var(--fs-larger);
+	font-weight: var(--fw-bolder);
+	line-height: 60px;
 }
 
 .home__description {
 	grid-area: description;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 }
 
 .home__description-text {
-	margin-bottom: 40px;
+	color: var(--clr-grey);
+	line-height: 25px;
 }
 
 .home__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--clr--red);
+	color: var(--clr-surface);
+	font-weight: var(--fw-bold);
+	letter-spacing: 5px;
 	border: none;
+	padding: 20px 40px;
+	margin-right: auto;
 }
 
 .new {
 	display: flex;
 	flex-direction: column;
+	background-color: var(--clr-dark);
+	color: var(--clr-grey);
+	padding: 30px;
 }
 
 .new__article-heading {
+	font-size: var(--fs-larger);
+	color: var(--clr--orange);
 	margin-bottom: 40px;
 }
 
@@ -106,10 +129,19 @@ main {
 }
 
 .new__article-name {
+	font-size: var(--fs-large);
+	font-weight: var(--fw-bold);
+	color: var(--clr-surface);
+	margin-bottom: 15px;
 }
 
 .new__article-description {
+	line-height: 25px;
 	margin-bottom: 35px;
+}
+
+.new__article:last-child > .new__article-description {
+	margin-bottom: 0;
 }
 
 .new__hr {
@@ -120,11 +152,13 @@ main {
 .popular {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	gap: 50px;
 }
 
 .popular__article {
-	display: flex;
-	margin-left: 50px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 25px;
 }
 
 .popular__article:first-child {
@@ -132,8 +166,8 @@ main {
 }
 
 .popular__article-image {
-	max-width: 100px;
-	margin-right: 23px;
+	max-width: 100%;
+	height: fit-content;
 }
 
 .popular__article-text {
@@ -142,10 +176,15 @@ main {
 }
 
 .popular__number {
+	font-size: var(--fs-large-plus);
+	color: var(--clr-grey);
+	opacity: 0.4;
 	margin-bottom: 20px;
 }
 
 .popular__article-name {
+	font-size: var(--fs-large);
+	font-weight: var(--fw-bold);
 	margin-bottom: 20px;
 }
 
