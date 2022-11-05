@@ -50,7 +50,7 @@ main {
 }
 
 .web-page {
-	max-width: 1111px;
+	max-width: 1110px;
 	display: flex;
 	flex-direction: column;
 }
@@ -152,13 +152,13 @@ main {
 .popular {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 50px;
+	gap: 25px;
 }
 
 .popular__article {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 25px;
+	grid-template-columns: 1fr 2fr;
+	gap: 15px;
 }
 
 .popular__article:first-child {
@@ -179,16 +179,17 @@ main {
 	font-size: var(--fs-large-plus);
 	color: var(--clr-grey);
 	opacity: 0.4;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .popular__article-name {
 	font-size: var(--fs-large);
 	font-weight: var(--fw-bold);
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .popular__article-description {
+	line-height: 25px;
 }
 
 @media screen and (max-width: 900px) {
