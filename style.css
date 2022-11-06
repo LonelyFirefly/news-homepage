@@ -47,10 +47,9 @@ main {
 .header {
 	max-width: 1110px;
 	max-height: 95px;
-	position: sticky;
-	top: 0;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -64,9 +63,12 @@ main {
 }
 
 .logo {
-	display: inline-block;
+	/* display: inline-block; */
+	font-family: "Times New Roman", Times, serif;
 	font-size: var(--fs-larger);
 	color: var(--clr-dark);
+	font-weight: var(--fw-bolder);
+	letter-spacing: -10px;
 }
 
 .side-menu {
@@ -75,29 +77,39 @@ main {
 
 .nav {
 	width: fit-content;
-	height: 100%;
-	max-height: none;
-	transition: max-height 0.5s ease-out;
-	position: relative;
-	overflow: hidden;
-	top: 0;
-	float: right;
+	display: flex;
+	/* height: 100%; */
+	/* max-height: none; */
+	/* transition: max-height 0.5s ease-out; */
+	/* position: relative; */
+	/* overflow: hidden; */
+	/* top: 0; */
+	/* float: right; */
+}
+
+.nav__menu {
+	display: flex;
+	gap: 45px;
 }
 
 .nav__menu a {
-	display: block;
+	/* display: block; */
 	color: var(--clr-grey);
-	padding: 30px;
+	/* padding: 30px; */
 }
 
 .nav__menu li {
-	float: left;
+	width: fit-content;
 }
 
 .nav__menu a:hover {
 	background-color: transparent;
 	color: var(--clr--red);
 }
+
+/* .nav__menu li {
+	float: left;
+} */
 
 .web-page {
 	max-width: 1110px;
@@ -246,7 +258,7 @@ main {
 	.nav {
 		max-height: 0;
 		position: fixed;
-		width: 100%;
+		width: 10 0%;
 	}
 
 	.hamb {
