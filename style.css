@@ -63,7 +63,6 @@ main {
 }
 
 .logo {
-	/* display: inline-block; */
 	font-family: "Times New Roman", Times, serif;
 	font-size: var(--fs-larger);
 	color: var(--clr-dark);
@@ -76,15 +75,7 @@ main {
 }
 
 .nav {
-	width: fit-content;
 	display: flex;
-	/* height: 100%; */
-	/* max-height: none; */
-	/* transition: max-height 0.5s ease-out; */
-	/* position: relative; */
-	/* overflow: hidden; */
-	/* top: 0; */
-	/* float: right; */
 }
 
 .nav__menu {
@@ -93,23 +84,16 @@ main {
 }
 
 .nav__menu a {
-	/* display: block; */
 	color: var(--clr-grey);
-	/* padding: 30px; */
 }
 
 .nav__menu li {
-	width: fit-content;
+	/* width: fit-content; */
 }
 
 .nav__menu a:hover {
-	background-color: transparent;
 	color: var(--clr--red);
 }
-
-/* .nav__menu li {
-	float: left;
-} */
 
 .web-page {
 	max-width: 1110px;
@@ -256,9 +240,16 @@ main {
 
 @media screen and (max-width: 900px) {
 	.nav {
-		max-height: 0;
+		height: 100%;
 		position: fixed;
-		width: 10 0%;
+		display: none;
+	}
+
+	.nav__menu a {
+	}
+
+	.nav__menu a:hover {
+		/* background-color: var(--clr-grey); */
 	}
 
 	.hamb {
@@ -269,21 +260,21 @@ main {
 
 	.hamb-line {
 		display: block;
-		height: 2px;
 		position: relative;
+		height: 2px;
 		width: 24px;
 		background-color: var(--clr-dark);
 	}
 
 	.hamb-line::before,
 	.hamb-line::after {
-		content: "";
 		display: block;
 		height: 100%;
 		position: absolute;
 		transition: all 0.2s ease-out;
 		width: 100%;
 		background-color: var(--clr-dark);
+		content: "";
 	}
 
 	.hamb-line::before {
@@ -294,8 +285,12 @@ main {
 		top: -5px;
 	}
 
-	.side-menu:checked ~ nav {
-		max-height: 100%;
+	.side-menu:checked ~ .nav {
+		display: flex;
+		/* width: min-content; */
+		flex-direction: column;
+		/* justify-content: center;
+		margin-left: auto; */
 	}
 
 	.side-menu:checked ~ .hamb .hamb-line {
