@@ -36,6 +36,20 @@ Here I decided to add a google font using css. I also found out about display=sw
 <hr class="new__hr" />
 ```
 Here I used hr for the first time to make a horizontal line. 
+
+```css
+.header {
+	position: sticky;
+	top: 0;
+}
+
+.nav {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+```
+This article really helped me understand the position feature.
 ### Continued development
 
 In my future projects I really want to have more pracice with:
