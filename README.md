@@ -52,12 +52,12 @@ Here I used hr for the first time to make a horizontal line.
 This article really helped me understand the position feature.
 ```html 
 <ul class="nav__menu">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#new">New</a></li>
-				<li><a href="#popular">Popular</a></li>
-				<li><a href="#">Trending</a></li>
-				<li><a href="#">Categories</a></li>
-			</ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#new">New</a></li>
+	<li><a href="#popular">Popular</a></li>
+	<li><a href="#">Trending</a></li>
+	<li><a href="#">Categories</a></li>
+</ul>
 ```
 Here I learnt what a href="#" is uded for. A hash - `#` within a hyperlink specifies an HTML element id to which the window should be scrolled.
 href="#some-id" would scroll to an element on the current page such as <div id="some-id">, href="//site.example/#some-id" would go to site.example and scroll to the id on that page.
