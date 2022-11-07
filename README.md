@@ -64,7 +64,7 @@ href="#some-id" would scroll to an element on the current page such as <div id="
 ```html
 <script src="menu.js"></script>
 ```
-In this one I learnt hot to add a js file to my project
+In this one I learnt how to add a js file to my project
 ### Continued development
 
 In my future projects I really want to have more pracice with:
