@@ -61,6 +61,10 @@ This article really helped me understand the position feature.
 ```
 Here I learnt what a href="#" is uded for. A hash - `#` within a hyperlink specifies an HTML element id to which the window should be scrolled.
 href="#some-id" would scroll to an element on the current page such as <div id="some-id">, href="//site.example/#some-id" would go to site.example and scroll to the id on that page.
+```html
+<script src="menu.js"></script>
+```
+In this one I learnt hot to add a js file to my project
 ### Continued development
 
 In my future projects I really want to have more pracice with:
