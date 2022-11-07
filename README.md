@@ -65,6 +65,18 @@ href="#some-id" would scroll to an element on the current page such as <div id="
 <script src="menu.js"></script>
 ```
 In this one I learnt how to add a js file to my project
+```css
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	background-color: var(--clr-dark);
+}
+```
+I also found out that the term 'webkit' is used in the CSS syntax for rendering content in Safari and Chrome browsers. Webkit code may need to be added in CSS to ensure it renders correctly on Chrome and Safari due to the lack of cross-compatibility.
 ### Continued development
 
 In my future projects I really want to have more pracice with:
