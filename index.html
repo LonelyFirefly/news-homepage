@@ -13,21 +13,34 @@
 		<title>news-homepage</title>
 	</head>
 	<body>
-		<header class="header">
-			<a href="#" class="logo">W.</a>
-			<input class="side-menu" type="checkbox" id="side-menu" />
-			<label class="hamb" for="side-menu">
-				<span class="hamb-line"></span
-			></label>
-			<nav class="nav">
-				<ul class="nav__menu">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#new">New</a></li>
-					<li><a href="#popular">Popular</a></li>
-					<li><a href="#">Trending</a></li>
-					<li><a href="#">Categories</a></li>
-				</ul>
-			</nav>
+		<header>
+			<div class="container">
+				<nav class="navbar">
+					<a href="#" class="nav-branding">W.</a>
+					<ul class="nav-menu">
+						<li class="nav-item">
+							<a href="#" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">New</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Popular</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Trending</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Categories</a>
+						</li>
+					</ul>
+					<div class="hamburger">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</div>
+				</nav>
+			</div>
 		</header>
 		<main>
 			<div class="web-page">
@@ -133,5 +146,6 @@
 				</article>
 			</div>
 		</main>
+		<script src="menu.js"></script>
 	</body>
 </html>
