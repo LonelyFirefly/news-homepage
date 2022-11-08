@@ -14,11 +14,11 @@
 	</head>
 	<body>
 		<header>
-			<div class="header">
+			<a href="#" class="navbar__logo">
+				<img src="../images/logo.svg" alt="logo" />
+			</a>
+			<div class="container">
 				<nav class="navbar">
-					<a href="#" class="navbar__logo">
-						<img src="../images/logo.svg" alt="logo" />
-					</a>
 					<ul class="navbar__menu">
 						<li class="navbar__item">
 							<a href="#home" class="navbar__link">Home</a>
@@ -45,9 +45,9 @@
 			</div>
 		</header>
 		<main>
-			<div class="web-page">
+			<div class="container">
 				<div class="top-section">
-					<article class="home" id="home">
+					<div class="home" id="home">
 						<picture>
 							<source
 								media="(max-width: 768px)"
@@ -59,7 +59,7 @@
 								alt="article image"
 								class="home__image" />
 						</picture>
-						<p class="home__article-name">
+						<p class="home__article-heading">
 							The Bright Future of Web 3.0?
 						</p>
 						<div class="home__description">
@@ -71,11 +71,11 @@
 							</p>
 							<button class="home__button">READ MORE</button>
 						</div>
-					</article>
-					<article class="new" id="new">
-						<h5 class="new__article-heading">New</h5>
+					</div>
+					<div class="new" id="new">
+						<h5 class="new__heading">New</h5>
 						<div class="new__article">
-							<p class="new__article-name">
+							<p class="new__article-heading">
 								<a class="new__link" href="#"
 									>Hydrogen VS Electric Cars</a
 								>
@@ -86,7 +86,7 @@
 							<hr class="new__hr" />
 						</div>
 						<div class="new__article">
-							<p class="new__article-name">
+							<p class="new__article-heading">
 								<a href="#" class="new__link"
 									>The Downsides of AI Artistry</a
 								>
@@ -98,7 +98,7 @@
 							<hr class="new__hr" />
 						</div>
 						<div class="new__article">
-							<p class="new__article-name">
+							<p class="new__article-heading">
 								<a href="#" class="new__link"
 									>Is VC Funding Drying Up?</a
 								>
@@ -108,9 +108,9 @@
 								take a look at what that means.
 							</p>
 						</div>
-					</article>
+					</div>
 				</div>
-				<article class="popular" id="popular">
+				<div class="popular" id="popular">
 					<div class="popular__article">
 						<img
 							src="../images/image-retro-pcs.jpg"
@@ -118,7 +118,7 @@
 							class="popular__article-image" />
 						<div class="popular__article-text">
 							<h5 class="popular__number">01</h5>
-							<p class="popular__article-name">
+							<p class="popular__article-heading">
 								<a href="#" class="popular__link"
 									>Reviving Retro PCs</a
 								>
@@ -136,7 +136,7 @@
 							class="popular__article-image" />
 						<div class="popular__article-text">
 							<h5 class="popular__number">02</h5>
-							<p class="popular__article-name">
+							<p class="popular__article-heading">
 								<a href="#" class="popular__link"
 									>Top 10 Laptops of 2022</a
 								>
@@ -153,7 +153,7 @@
 							class="popular__article-image" />
 						<div class="popular__article-text">
 							<h5 class="popular__number">03</h5>
-							<p class="popular__article-name">
+							<p class="popular__article-heading">
 								<a href="#" class="popular__link"
 									>The Growth of Gaming</a
 								>
@@ -164,7 +164,7 @@
 							</p>
 						</div>
 					</div>
-				</article>
+				</div>
 			</div>
 		</main>
 		<script src="menu.js"></script>
