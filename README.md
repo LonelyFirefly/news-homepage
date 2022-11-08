@@ -100,6 +100,7 @@ In my future projects I really want to have more pracice with:
 -   [CS50](https://www.youtube.com/watch?v=NcoBAfJ6l2Q&ab_channel=CS50) - This YouTube channel has countless useful videos. I tend to watch it when I have troubles with Git.
 -   [cssgenerator.org](https://cssgenerator.org/) - Here are some useful css tools.
 -   [LogRocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/) - This article helped me create a responsive mobile menu with CSS without JavaScript.
+-   [freecodecamp](www.freecodecamp.org) - this particular article helped me out with a responsive image.
 ## Author
 
 -   LinkedIn - [Daniil Kalugin](https://www.linkedin.com/in/daniil-kalugin)
