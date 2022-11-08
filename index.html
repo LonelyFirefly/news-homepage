@@ -14,30 +14,32 @@
 	</head>
 	<body>
 		<header>
-			<div class="container">
+			<div class="header">
 				<nav class="navbar">
-					<a href="#" class="nav-branding">W.</a>
-					<ul class="nav-menu">
-						<li class="nav-item">
-							<a href="#home" class="nav-link">Home</a>
+					<a href="#" class="navbar__logo">
+						<img src="../images/logo.svg" alt="logo" />
+					</a>
+					<ul class="navbar__menu">
+						<li class="navbar__item">
+							<a href="#home" class="navbar__link">Home</a>
 						</li>
-						<li class="nav-item">
-							<a href="#new" class="nav-link">New</a>
+						<li class="navbar__item">
+							<a href="#new" class="navbar__link">New</a>
 						</li>
-						<li class="nav-item">
-							<a href="#popular" class="nav-link">Popular</a>
+						<li class="navbar__item">
+							<a href="#popular" class="navbar__link">Popular</a>
 						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Trending</a>
+						<li class="navbar__item">
+							<a href="#" class="navbar__link">Trending</a>
 						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Categories</a>
+						<li class="navbar__item">
+							<a href="#" class="navbar__link">Categories</a>
 						</li>
 					</ul>
-					<div class="hamburger">
-						<span class="bar"></span>
-						<span class="bar"></span>
-						<span class="bar"></span>
+					<div class="navbar__hamburger">
+						<span class="navbar__bar"></span>
+						<span class="navbar__bar"></span>
+						<span class="navbar__bar"></span>
 					</div>
 				</nav>
 			</div>
@@ -46,10 +48,17 @@
 			<div class="web-page">
 				<div class="top-section">
 					<article class="home" id="home">
-						<img
-							src="../images/image-web-3-desktop.jpg"
-							alt="article image"
-							class="home__image" />
+						<picture>
+							<source
+								media="(max-width: 768px)"
+								srcset="../images/image-web-3-mobile.jpg"
+								alt="article image"
+								class="home__image" />
+							<img
+								src="../images/image-web-3-desktop.jpg"
+								alt="article image"
+								class="home__image" />
+						</picture>
 						<p class="home__article-name">
 							The Bright Future of Web 3.0?
 						</p>
@@ -67,7 +76,9 @@
 						<h5 class="new__article-heading">New</h5>
 						<div class="new__article">
 							<p class="new__article-name">
-								Hydrogen VS Electric Cars
+								<a class="new__link" href="#"
+									>Hydrogen VS Electric Cars</a
+								>
 							</p>
 							<p class="new__article-description">
 								Will hydrogen-fueled cars ever catch up to EVs?
@@ -76,7 +87,9 @@
 						</div>
 						<div class="new__article">
 							<p class="new__article-name">
-								The Downsides of AI Artistry
+								<a href="#" class="new__link"
+									>The Downsides of AI Artistry</a
+								>
 							</p>
 							<p class="new__article-description">
 								What are the possible adverse effects of
@@ -86,7 +99,9 @@
 						</div>
 						<div class="new__article">
 							<p class="new__article-name">
-								Is VC Funding Drying Up?
+								<a href="#" class="new__link"
+									>Is VC Funding Drying Up?</a
+								>
 							</p>
 							<p class="new__article-description">
 								Private funding by VC firms is down 50% YOY. We
@@ -104,7 +119,9 @@
 						<div class="popular__article-text">
 							<h5 class="popular__number">01</h5>
 							<p class="popular__article-name">
-								Reviving Retro PCs
+								<a href="#" class="popular__link"
+									>Reviving Retro PCs</a
+								>
 							</p>
 							<p class="popular__article-description">
 								What happens when old PCs are given modern
@@ -120,7 +137,9 @@
 						<div class="popular__article-text">
 							<h5 class="popular__number">02</h5>
 							<p class="popular__article-name">
-								Top 10 Laptops of 2022
+								<a href="#" class="popular__link"
+									>Top 10 Laptops of 2022</a
+								>
 							</p>
 							<p class="popular__article-description">
 								Our best picks for various needs and budgets.
@@ -135,7 +154,9 @@
 						<div class="popular__article-text">
 							<h5 class="popular__number">03</h5>
 							<p class="popular__article-name">
-								The Growth of Gaming
+								<a href="#" class="popular__link"
+									>The Growth of Gaming</a
+								>
 							</p>
 							<p class="popular__article-description">
 								How the pandemic has sparked fresh
