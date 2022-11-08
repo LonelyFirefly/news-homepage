@@ -14,7 +14,7 @@
 
 ### Links
 
--   Card URL: [Vercel URl](https://testimonials-grid-section-nu-mocha.vercel.app/)
+-   Card URL: [Vercel URl](https://vercel.com/lonelyfirefly/news-homepage)
 
 ## My process
 
