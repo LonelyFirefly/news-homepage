@@ -77,6 +77,17 @@ In this one I learnt how to add a js file to my project
 }
 ```
 I also found out that the term 'webkit' is used in the CSS syntax for rendering content in Safari and Chrome browsers. Webkit code may need to be added in CSS to ensure it renders correctly on Chrome and Safari due to the lack of cross-compatibility.
+```css
+picture {
+	width: 100%;
+}
+
+.home__image {
+	width: 728px;
+	max-width: 100%;
+}
+```
+I don't why it took me so long to figure out how to make an img responsive, but now that I know how to deal with it, I won't have to struggle with it in my future projects. 
 ### Continued development
 
 In my future projects I really want to have more pracice with:
