@@ -110,10 +110,6 @@ a {
 	margin: 5px auto;
 }
 
-/* .web-page {
-	max-width: 1110px;
-} */
-
 .top-section {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
